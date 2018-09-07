@@ -1,0 +1,30 @@
+{
+  "name": "@anejs/anne-cli-template-list",
+  "version": "1.0.0",
+  "description": "anne cli 模板创建列表",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anejs/anne-cli-template-list.git"
+  },
+  "author": "xierenyuan@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anejs/anne-cli-template-list/issues"
+  },
+  "homepage": "https://github.com/anejs/anne-cli-template-list#readme",
+  "anne": {
+    "template": {
+      "tibers": {
+        "description": "vue 中台基础框架",
+        "pkg": "@anejs/anne-template-tibers"
+      }
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
