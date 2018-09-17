@@ -1,6 +1,6 @@
 {
   "name": "@anejs/anne-cli-template-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "anne cli 模板创建列表",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,10 @@
     "template": {
       "tibers": {
         "description": "vue 中台基础框架",
-        "pkg": "@anejs/anne-template-tibers"
+        "pkg": "@anejs/anne-template-tibers",
+        "layout": {
+          "pkg": "@rrc-materials/layout"
+        }
       }
     }
   },
