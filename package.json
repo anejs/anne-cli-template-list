@@ -25,6 +25,13 @@
           "pkg": "@rrc-materials/layout"
         },
         "materialsVersion": "^0.0.1-beta.8"
+      },
+      "irelia": {
+        "description": "vue 移动端模板",
+        "pkg": "@anejs/anne-template-irelia",
+        "layout": {
+          "pkg": "@rrc-materials/layout"
+        }
       }
     }
   },
