@@ -1,6 +1,6 @@
 {
   "name": "@anejs/anne-cli-template-list",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "anne cli 模板创建列表",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
         "layout": {
           "pkg": "@rrc-materials/layout"
         },
-        "materialsVersion": "^0.0.1-beta.21",
+        "materialsVersion": "^0.0.1-beta.22",
         "prompts": false
       },
       "irelia": {
